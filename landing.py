@@ -34,6 +34,8 @@ bacground-size: cover;
 """
 st.markdown(custom_bg, unsafe_allow_html=True)
 
+new_title = '<p style="font-family:sans-serif; color:White; font-size: 42px;">New image</p>'
+st.markdown(new_title, unsafe_allow_html=True)
 st.header("Bienvenido")
 st.subheader("Recapitulación de la serie pasada")
 
