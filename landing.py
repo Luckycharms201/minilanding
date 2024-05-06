@@ -34,16 +34,18 @@ bacground-size: cover;
 """
 st.markdown(custom_bg, unsafe_allow_html=True)
 
-new_title = '<p style="font-family:sans-serif; color:White; font-size: 42px;">New image</p>'
-st.markdown(new_title, unsafe_allow_html=True)
-st.header("Bienvenido")
-st.subheader("Recapitulación de la serie pasada")
+header = '<p style="font-family:sans-serif; color:White; font-size: 42px;">Bienvenidos</p>'
+st.markdown(header, unsafe_allow_html=True)
+
+subheader = '<p style="font-family:sans-serif; color:White; font-size: 12px;">Recapitulación de la serie pasada</p>'
+st.markdown(subheader, unsafe_allow_html=True)
 
 #VIDEO
 video_url = 'https://www.youtube.com/watch?v=NIUTU0N-88E'
 st.video(video_url)
 
-st.subheader("Sultanes te invita a ti y tus amigos a disfrutar del beisbol en el Estadio Mobil Super")
+subheader2 = '<p style="font-family:sans-serif; color:White; font-size: 12px;">Sultanes te invita a ti y tus amigos a disfrutar del beisbol en el Estadio Mobil Super</p>'
+st.markdown(subheader, unsafe_allow_html=True)
 
 #PHOTO
 st.markdown("[![Foo](https://i.ibb.co/L93DSSw/invitacion-SULTANES.png)](https://docs.google.com/forms/d/e/1FAIpQLSc9ncbdgbHOQbF58KiDiExVBILlRyy7uTjXWhRl_qlWY1czaw/viewform)")
