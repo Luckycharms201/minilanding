@@ -24,6 +24,16 @@ custom_html = """
 #DISPLAY BANNER
 st.markdown(custom_html, unsafe_allow_html=True)
 
+custom_bg = """
+<style>
+[data-testid="stAppViewContainer"] {
+background-image: url("https://i.ibb.co/3c2QkJ3/fondo-BIG.png");
+bacground-size: cover;
+}
+</style>
+"""
+st.markdown(custom_bg, unsafe_allow_html=True)
+
 st.header("Bienvenido")
 st.subheader("Recapitulación de la serie pasada")
 
@@ -36,12 +46,3 @@ st.subheader("Sultanes te invita a ti y tus amigos a disfrutar del beisbol en el
 #PHOTO
 st.markdown("[![Foo](https://i.ibb.co/L93DSSw/invitacion-SULTANES.png)](https://docs.google.com/forms/d/e/1FAIpQLSc9ncbdgbHOQbF58KiDiExVBILlRyy7uTjXWhRl_qlWY1czaw/viewform)")
 
-#custom_bg = """
-#<style>
-#[data-testid="stAppViewContainer"] {
-#background-image: url("https://i.ibb.co/3c2QkJ3/fondo-BIG.png");
-#bacground-size: cover;
-#}
-#</style>
-#"""
-#st.markdown(custom_bg, unsafe_allow_html=True)
